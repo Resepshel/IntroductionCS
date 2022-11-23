@@ -6,5 +6,5 @@ y1=Convert.ToDouble(Console.ReadLine());
 x2=Convert.ToDouble(Console.ReadLine());
 y2=Convert.ToDouble(Console.ReadLine());
 
-distance=Math.Sqrt(Math.Pow(x2-x1)+Math.Pow(y2-y1,2));
+distance=Math.Sqrt(Math.Pow(x2-x1, 2)+Math.Pow(y2-y1, 2));
 System.Console.WriteLine(distance);
